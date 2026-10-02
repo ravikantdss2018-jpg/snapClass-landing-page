@@ -513,208 +513,145 @@ h4 {
 
 /* Mobile Responsiveness Improvements */
 
-@media (max-width: 1200px) {
-    .navbar {
-        padding: 12px 40px;
-    }
-
-    .hero h1 {
-        font-size: 4.5rem;
-    }
-
-    .floating-card {
-        display: none;
-    }
-
-    .features,
-    .teacher-flow,
-    .tech-stack,
-    .purple-section {
-        padding: 80px 40px;
-    }
-}
-
-@media (max-width: 1024px) {
-    .hero h1 {
-        font-size: 3.5rem;
-    }
-
-    .tech-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .flow-step {
-        gap: 40px;
-        margin-bottom: 80px;
-    }
-
-    .flow-content h3 {
-        font-size: 2.2rem;
-    }
-
-    .tech-stack {
-        padding: 50px 20px;
-        border-radius: 40px;
-        margin: 20px;
-    }
-
-    .tech-stack h2 {
-        font-size: 2.4rem;
-    }
-
-    .tech-grid {
-        grid-template-columns: repeat(2, 1fr);
-        margin-top: 30px;
-    }
-}
-
 @media (max-width: 768px) {
-    .navbar .logo-text {
-        display: none;
-    }
-
     .navbar {
-        padding: 10px 20px;
+        padding: 8px 16px;
     }
 
-    .nav-links {
+    .logo img{
+        height: 28px;
+    }
+
+    .logo-text{
+        font-size: 1.1rem;
+    }
+
+    .nav-links{
         display: none;
     }
 
-    .hero {
-        padding: 60px 20px;
+    .btn-pill{
+        padding: 8px 16px;
+        font-size: 0.8rem;
     }
 
-    .hero h1 {
-        font-size: 2.8rem;
+    .hero{
+        padding: 60px 16px;
     }
 
-    .hero p {
+    .hero h1{
+        font-size: 2.4rem;
+        line-height: 1.2;
+    }
+
+    .hero p{
         font-size: 1rem;
-        margin-bottom: 32px;
+        margin-bottom: 30px;
     }
 
-    .hero-actions {
-        flex-direction: column;
-        gap: 16px;
-    }
-
-    .btn-cta {
-        padding: 16px 32px;
+    .btn-cta{
         width: 100%;
         justify-content: center;
+        padding: 16px;
+        font-size: 1rem;
     }
 
-    .features,
-    .teacher-flow {
-        padding: 80px 20px;
+    .link-action{
+        font-size: 1rem;
+    }
+    .floating-card{
+        display: none;
     }
 
-    .features h2 {
-        font-size: 2.4rem;
-        margin-bottom: 40px;
+    .features{
+        padding: 60px 16px;
     }
 
-    .feature-grid {
+    features h2{
+        font-size: 2.1rem;
+    }
+
+    .feature-grid{
         grid-template-columns: 1fr;
         gap: 20px;
     }
 
-    .feature-card {
-        padding: 30px 20px;
+    .feature-card{
+        padding: 24px;
+        border-radius: 24px;
+    }
+
+    .tech-stack{
+        padding: 60px 16px;
+        margin: 20px;
         border-radius: 30px;
     }
 
-    .flow-step {
-        flex-direction: column !important;
+    .tech-stack h2{
+        font-size: 2rem;
+    }
+
+    .tech-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .tech-card{
+        padding: 20px;
+    }
+
+    .teacher-flow{
+        padding: 60px 16px;
+    }
+
+    .flow-step{
+        flex-direction: column;
         gap: 20px;
         margin-bottom: 60px;
     }
 
-    .flow-image {
+    .flow-content h3{
+        font-size: 1.8rem;
+    }
+
+    .flow-content p{
+        font-size: 1.1rem;
+    }
+
+    .flow-image{
         width: 100%;
-        flex: none;
         border-radius: 20px;
     }
 
-    .flow-content h3 {
-        font-size: 1.8rem;
-        margin-bottom: 12px;
-    }
-
-    .flow-content p {
-        font-size: 1rem;
-        margin-bottom: 20px;
-    }
-
-    .tech-stack {
-        padding: 60px 20px;
+    .purple-section{
+        padding: 60px 16px;
         margin: 20px;
-        border-radius: 40px;
+        border-radius: 30px;
     }
 
-    .tech-stack h2 {
-        font-size: 2.4rem;
-    }
-
-    .tech-card {
-        padding: 20px;
-        flex-direction: column;
-        text-align: center;
-        gap: 15px;
-    }
-
-    .t-icon {
-        margin: 0 auto;
-    }
-
-    .tech-tag {
-        position: relative;
-        top: 0;
-        right: 0;
-        margin-top: 10px;
-        display: inline-block;
-    }
-
-    .purple-section {
-        padding: 60px 20px;
-        margin: 20px;
-        border-radius: 40px;
-    }
-
-    .purple-section h2 {
+    .purple-section h2{
         font-size: 2rem;
     }
 
-    .btn-white {
-        padding: 16px 32px;
+    .btn-white{
         width: 100%;
+        padding: 16px;
     }
 
-    .main-footer {
-        padding: 60px 20px 30px;
+    .main-footer{
+        padding: 60px 16px 30px;
     }
 
-    .main-footer .footer-grid {
+    .main-footer.footer-grid{
         grid-template-columns: 1fr;
         gap: 40px;
         text-align: center;
-        margin-bottom: 40px;
     }
 
-    .footer-brand p {
+    img{
         max-width: 100%;
-    }
-}
-
-@media (max-width: 480px) {
-    .hero h1 {
-        font-size: 2.2rem;
+        height: auto;
     }
 
-    .hero p {
-        font-size: 0.95rem;
-    }
 }
 
 
