@@ -530,11 +530,6 @@ h4 {
         display: none;
     }
 
-    .btn-pill{
-        padding: 8px 12px;
-        font-size: 0.4rem;
-    }
-
     .hero{
         padding: 60px 16px;
     }
@@ -637,15 +632,21 @@ h4 {
         padding: 16px;
     }
 
-    .main-footer{
-        padding: 60px 16px 30px;
+    .main-footer {
+        padding: 60px 20px 30px;
     }
 
-    .main-footer.footer-grid{
+    .main-footer .footer-grid {
         grid-template-columns: 1fr;
         gap: 40px;
         text-align: center;
+        margin-bottom: 40px;
     }
+
+    .footer-brand p {
+        max-width: 100%;
+    }
+
 
     img{
         max-width: 100%;
