@@ -529,6 +529,9 @@ h4 {
     .nav-links{
         display: none;
     }
+    .btn-pill {
+    display: none;
+    }
 
     .hero{
         padding: 60px 16px;
